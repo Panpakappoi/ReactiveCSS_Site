@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Justin Chang's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <script src="https://kit.fontawesome.com/14049a3fa4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <h1>
+                        <span class="fa-solid fa-terminal fa-xl" aria-hidden="true"></span>
+                        <span>Justin Chang</span>
+                    </h1>
+                </a>
+            </li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="" target="_blank">
+                    <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Panpakappoi" target="_blank">
+                    <span class="fa-brands fa-github-alt" aria-hidden="true"></span>
+                    <span class="sr-only">Github</span>
+                </a>
+            </li>
+            <li><a href="" class="button">Resume</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="gradient"></div>
+<section id="intro">
+    <p class="name">Hi, my name is <span>Justin Chang.</span></p>
+    <h2>I dabble here and there.</h2>
+    <p>I am passionate about Japanese Literature and Media. I am big fan of <a
+            href="https://en.wikipedia.org/wiki/Mizuki_Tsujimura"
+            target="_blank">辻村深月</a>. Of course...</p>
+    <p>I love anime: <a href="https://myanimelist.net/animelist/Autoramen" target="_blank">MAL</a> and Japanese Music.
+    </p>
+    <p>I am currently a tutor for Santa Monica College's <a
+            href="https://www.smc.edu/student-support/academic-support/tutoring-centers/math-lab/" target="_blank">Math
+        Lab</a>
+        and <a href="https://www.smc.edu/student-support/academic-support/tutoring-centers/csis-tutoring-center.php"
+               target="_blank">Business/CSIS tutoring Center</a>.</p>
+</section>
+<div class="project-page">
+    <section id="projects">
+        <h2>Projects I'm proud of </h2>
+        <article>
+            <h4>Latest Project</h4>
+            <h3>SMC Course Registration bot</h3>
+            <p class="project-description">
+                Utilizes gmail API to scan for emails, and then utilizes Selenium to navigate the webpage and automate
+                browser operations. Regex is used to determine from the JSON objects collected from GMail API to decide
+                if a course is open. For selecting elements on the page, robust selectors were used to ensure that
+                going into the future, the bot would still work even if minor adjustments to id were made. Has both a
+                single register and bulk register mode.
+            </p>
+            <h4>Technologies Used: </h4>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>GMail API, PubSub</li>
+                <li>Python</li>
+                <li>Selenium</li>
+            </ul>
+        </article>
+    </section>
+</div>
+<div class="gradient"></div>
+<section id="contact">
+    <h3 class>Contact me</h3>
+    <p>I'm always interested in hearing about new opportunities</p>
+    <p>generative projects involving anime</p>
+    <p>and applications of math in programming</p>
+    <p><a href="mailto:jchan063@gmail.com" class="email_button">Email me</a></p>
+</section>
+<div class="gradient"></div>
+<footer id="bottom-page">
+    <nav>
+        <h3> Justin Chang • Corporate Slave</h3>
+        <ul class="bottom-nav">
+            <li>
+                <a href="" target="_blank">
+                    <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Panpakappoi">
+                    <span class="fa-brands fa-github" aria-hidden="true"></span>
+                    <span class="sr-only">GitHub</span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:jchan063@gmail.com">
+                    <span class="fa-solid fa-envelope"></span>
+                    <span class="sr-only">Email</span>
+                </a>
+            </li>
+        </ul>
+        <p><small>&copy 2024 Justin Chang Deez Nuts</small></p>
+    </nav>
+</footer>
+</body>
+</html>
